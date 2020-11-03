@@ -31,20 +31,20 @@ An app can perform more than one task based on predefined actions. These actions
 
 You can see what actions an app has by going to /apps, then finding the app you're looking for. 
 
-![Apps view 2](https://github.com/SOARDATA/soar_docs/tree/master/assets/apps-view-2.png?raw=true)
+![Apps view 2](https://github.com/SOARDATA/soar_docs/blob/master/assets/apps-view-2.png?raw=true)
 
 ### Arguments
 Arguments are the variables used to perform an action. Arguments with an orange dot next to them are required, with yellow ones being optional. Arguments should have example text to to indicate the expected value. The first arguments of an app are _usually_ related to authentication or the target URL, where we suggest using [variables](/docs/workflows#variables)
 
 You can see what parameters and action has by going to /apps, selecting an app and then the action.
 
-![Apps view 3](https://github.com/SOARDATA/soar_docs/tree/master/assets/apps-view-3.png?raw=true)
+![Apps view 3](https://github.com/SOARDATA/soar_docs/blob/master/assets/apps-view-3.png?raw=true)
 
 ## Updating apps 
 **PS: This only applies to onprem**
 Going to /apps, there exists a button called "Download from Github" which by default will download apps from the directory https://github.com/frikky/shuffle-apps. You can type in your own repository along with authentication options if applicable.
 
-![Apps view 11](https://github.com/SOARDATA/soar_docs/tree/master/assets/apps-view-11.png?raw=true)
+![Apps view 11](https://github.com/SOARDATA/soar_docs/blob/master/assets/apps-view-11.png?raw=true)
 
 When the modal opens, there are two buttons:
 * Submit - Downloads and builds NEW apps
@@ -56,7 +56,7 @@ When you set up Shuffle for the first time, it should provide you with 15-20 exi
 
 Searching for apps is done by going to /apps and writing your search term. In the example below, we searched for "TheHive", which ends in TheHive being shown. 
 
-![Apps view 4](https://github.com/SOARDATA/soar_docs/tree/master/assets/apps-view-4.png?raw=true)
+![Apps view 4](https://github.com/SOARDATA/soar_docs/blob/master/assets/apps-view-4.png?raw=true)
 
 A goal for Shuffle is to make it possible to search outside the apps you currently have. This is an [open issue](https://github.com/frikky/Shuffle/issues/24) as of 23.05.2020, but will be worked on.
 
@@ -71,13 +71,13 @@ If you have an OpenAPI config:
 From scratch:
 * Click the "Create from scratch" button, then use the editor.
 
-![Apps view 5](https://github.com/SOARDATA/soar_docs/tree/master/assets/apps-view-5.png?raw=true)
+![Apps view 5](https://github.com/SOARDATA/soar_docs/blob/master/assets/apps-view-5.png?raw=true)
 
 App creator:
 * Add name, description, authentication, endpoint etc..
 * Create Actions.
 * Save.
-![Apps view 6](https://github.com/SOARDATA/soar_docs/tree/master/assets/apps-view-6.png?raw=true)
+![Apps view 6](https://github.com/SOARDATA/soar_docs/blob/master/assets/apps-view-6.png?raw=true)
 
 ## Edit OpenAPI app
 TBD: Finish this.
@@ -88,7 +88,7 @@ Required permissions (either or):
 * Admin
 * App owner / creator
 
-![Apps view 7](https://github.com/SOARDATA/soar_docs/tree/master/assets/apps-view-7.png?raw=true)
+![Apps view 7](https://github.com/SOARDATA/soar_docs/blob/master/assets/apps-view-7.png?raw=true)
 TBD
 
 ## Create custom app 
@@ -105,10 +105,10 @@ This will make it use Shuffle's app SDK, rather than Shuffle's.
 If you have a repository (private or public) of custom apps for Shuffle (or WALKOFF), Shuffle can load all the apps by using the "Download from URL" button in the /apps view.
 
 1. Click the "Download from URL" button
-![Apps view 9](https://github.com/SOARDATA/soar_docs/tree/master/assets/apps-view-9.png?raw=true)
+![Apps view 9](https://github.com/SOARDATA/soar_docs/blob/master/assets/apps-view-9.png?raw=true)
 
 2. Fill in the github/gitlab URL, and if the repo is private, your username & password. These are used for BasicAuth when running git clone. 
-![Apps view 10](https://github.com/SOARDATA/soar_docs/tree/master/assets/apps-view-10.png?raw=true)
+![Apps view 10](https://github.com/SOARDATA/soar_docs/blob/master/assets/apps-view-10.png?raw=true)
 
 3. Hit submit. If it's unsuccessful, it will throw an error, otherwise show a loading icon. This means it's working on getting your apps.
 
@@ -121,7 +121,7 @@ Required permissions (either or):
 * Admin
 * App owner / creator
 
-![Apps view 8](https://github.com/SOARDATA/soar_docs/tree/master/assets/apps-view-8.png?raw=true)
+![Apps view 8](https://github.com/SOARDATA/soar_docs/blob/master/assets/apps-view-8.png?raw=true)
 
 ## API 
 [Click here to see the App API](/docs/api#apps)
